@@ -1,0 +1,45 @@
+.item__container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 20px;
+    background-color: #E9E9E9;
+}
+
+.item {
+    padding: 20px 20px 0 20px ;
+    background-color: #fff;
+}
+
+.item-image img {
+	width: 240px;
+	height: 280px;
+}
+
+.item-title {
+    margin-top: 13px;
+    font-weight: bold;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item-price {
+    color: #3A773A;
+    font-size: 2rem;
+font-weight: 750;
+
+}
+
+.item-quantity {
+    background-color: #AB433F;
+    color: #fff;
+    border-radius: 10%;
+    font-weight: bold;
+
+    text-align: center;
+    padding: 5px 7px 5px 7px;
+}
